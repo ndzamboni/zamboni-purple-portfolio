@@ -4,7 +4,7 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  // SiVercel,
+  SiVercel,
   // SiMacos,
   SiGithub,
   SiRender,
@@ -31,6 +31,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGithub />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVercel />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiRender />

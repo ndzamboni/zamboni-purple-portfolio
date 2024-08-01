@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+// import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -12,7 +12,8 @@ function AboutCard() {
             from <span className="purple"> Greensboro, North Carolina</span>
             <br />
             I am currently employed as the <span className="purple">Membership Director</span> at the <span className="purple">Greensboro YMCA.</span>
-            <br />
+            <br /><br />
+            When I'm not working, I'm coding! I am a Full Stack Web Developer with experience in HTML, CSS, JavaScript, React.js, Node.js, Express.js, SQL, Python, MongoDB, and much more. <br /><br />
             I have completed the Full Stack Web Development Bootcamp at UNC Chapel Hill.
             <br />
             <br />
@@ -20,19 +21,19 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+            ⭐ Playing Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Gardening
+            ⭐ Gardening
             </li>
             <li className="about-activity">
-              <ImPointRight /> Playing Pickleball
+            ⭐ Playing Pickleball
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+            ⭐ Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Horror Movies
+            ⭐ Watching Horror Movies
             </li>
           </ul>
 
