@@ -8,6 +8,7 @@ import survey from "../../Assets/Projects/surveyApp.PNG";
 import discord from "../../Assets/Projects/discorddemo.PNG";
 import qrCodeGenerator from "../../Assets/Projects/qrcode.PNG";
 import pottyPartner from "../../Assets/Projects/pottyPartner.PNG";
+import habitTracker from "../../Assets/Projects/habitTracker.PNG";
 
 function Projects() {
   return (
@@ -84,6 +85,17 @@ function Projects() {
               description="Welcome to Zrilla, your go-to app for all things horror and thriller movies! Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not."
               ghLink="https://github.com/Zrilla-App/zrilla?tab=readme-ov-file"
               demoLink="https://zrilla-app.github.io/zrilla/"    
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={habitTracker}
+              isBlog={false}
+              title="Habit Tracker App"
+              description="This app allows the user to track any habits, hobbies, or rituals and log their data, as well as visualize their data over a period of time. WORK IN PROGRESS..."
+              ghLink="https://github.com/ndzamboni/habit-tracker-z"
+              demoLink="https://github.com/ndzamboni/habit-tracker-z"
             />
           </Col>
         </Row>
