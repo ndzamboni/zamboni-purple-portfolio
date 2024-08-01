@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Ever since I made the decision to learn how to code, I have been absolutely in love with programming. <br /><br/><br/>
+            Since deciding to learn how to code, I have developed a deep passion for programming. Web development has become a significant part of my life, and I think about it constantly. It's wonderful to have discovered something I am so passionate about in my professional journey. <br /><br/><br/>
             
             <h1 style={{ fontSize: "2em" }}>
               FULL STACK <span className="purple"> WEB DEVELOPMENT </span>
