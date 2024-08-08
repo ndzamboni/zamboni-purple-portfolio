@@ -94,8 +94,8 @@ function Projects() {
               isBlog={false}
               title="Habit Tracker App"
               description="This app allows the user to track any habits, hobbies, or rituals and log their data, as well as visualize their data over a period of time. WORK IN PROGRESS..."
-              ghLink="https://github.com/ndzamboni/habit-tracker-z"
-              demoLink="https://github.com/ndzamboni/habit-tracker-z"
+              ghLink="https://github.com/ndzamboni/the-habit-tracker"
+              demoLink="https://github.com/ndzamboni/the-habit-tracker"
             />
           </Col>
         </Row>
