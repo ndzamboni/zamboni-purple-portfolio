@@ -40,7 +40,7 @@ function Projects() {
               title="Habit Tracker App"
               description="The Habit Tracker App is a comprehensive tool designed to help users track and manage their habits effectively. It offers a clean, responsive UI with both light and dark modes, and allows users to visualize their habits through various types of charts. The app also supports feature requests from users, ensuring continuous improvement based on user feedback. WORK IN PROGRESS..."
               ghLink="https://github.com/ndzamboni/the-habit-tracker"
-              demoLink="https://github.com/ndzamboni/the-habit-tracker"
+              demoLink="https://the-habit-tracker-m77g.onrender.com"
             />
           </Col>
 
