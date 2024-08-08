@@ -35,6 +35,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={habitTracker}
+              isBlog={false}
+              title="Habit Tracker App"
+              description="The Habit Tracker App is a comprehensive tool designed to help users track and manage their habits effectively. It offers a clean, responsive UI with both light and dark modes, and allows users to visualize their habits through various types of charts. The app also supports feature requests from users, ensuring continuous improvement based on user feedback. WORK IN PROGRESS..."
+              ghLink="https://github.com/ndzamboni/the-habit-tracker"
+              demoLink="https://github.com/ndzamboni/the-habit-tracker"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pottyPartner}
               isBlog={false}
               title="Potty Partner"
@@ -88,16 +99,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={habitTracker}
-              isBlog={false}
-              title="Habit Tracker App"
-              description="This app allows the user to track any habits, hobbies, or rituals and log their data, as well as visualize their data over a period of time. WORK IN PROGRESS..."
-              ghLink="https://github.com/ndzamboni/the-habit-tracker"
-              demoLink="https://github.com/ndzamboni/the-habit-tracker"
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
