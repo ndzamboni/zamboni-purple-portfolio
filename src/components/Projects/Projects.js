@@ -9,6 +9,8 @@ import discord from "../../Assets/Projects/discorddemo.PNG";
 import qrCodeGenerator from "../../Assets/Projects/qrcode.PNG";
 import pottyPartner from "../../Assets/Projects/pottyPartner.PNG";
 import habitTracker from "../../Assets/Projects/habitTracker.PNG";
+import svgHero from "../../Assets/Projects/svgHero.PNG";
+import SNAPI from "../../Assets/Projects/SNAPI.PNG";
 
 function Projects() {
   return (
@@ -96,6 +98,28 @@ function Projects() {
               description="Welcome to Zrilla, your go-to app for all things horror and thriller movies! Zrilla has everything you need to keep track of your favorite films, rate them, and share your thoughts with fellow horror enthusiasts. With Zrilla, you can dive into the darkest corners of cinema and emerge unscathed... or maybe not."
               ghLink="https://github.com/Zrilla-App/zrilla?tab=readme-ov-file"
               demoLink="https://zrilla-app.github.io/zrilla/"    
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={svgHero}
+              isBlog={false}
+              title="SVG Creation App"
+              description="The SVG Generator App is a web-based tool that allows users to create, manipulate, and export Scalable Vector Graphics (SVG). With a range of customizable options, users can design complex graphics using shapes, paths, text, and more. The app supports advanced features such as undo/redo functionality, layer management, and freehand drawing."
+              ghLink="https://github.com/ndzamboni/the-SVG-app"
+              demoLink="https://github.com/ndzamboni/the-SVG-app"    
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SNAPI}
+              isBlog={false}
+              title="SNAPI (Social Network API)"
+              description="SNAPI (Social Network API) allows users to interact in a social network by creating and managing users, thoughts (similar to posts), reactions (similar to comments), and friendships. Built using Express.js, MongoDB, and Mongoose, this API supports CRUD operations for users, thoughts, reactions, and friendships. It is designed for scalability with a NoSQL database."
+              ghLink="https://github.com/ndzamboni/SNAPI"
+              demoLink="https://drive.google.com/file/d/1f3KI3l2sAH3dqOHKX28DVaOnz6WDy52i/view?usp=sharing"    
             />
           </Col>
 
