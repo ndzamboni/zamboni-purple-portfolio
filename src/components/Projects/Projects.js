@@ -11,6 +11,7 @@ import pottyPartner from "../../Assets/Projects/pottyPartner.PNG";
 import habitTracker from "../../Assets/Projects/habitTracker.PNG";
 import svgHero from "../../Assets/Projects/svgHero.PNG";
 import SNAPI from "../../Assets/Projects/SNAPI.PNG";
+import financeManager from "../../Assets/Projects/financeManager.PNG";
 
 function Projects() {
   return (
@@ -24,16 +25,6 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={discord}
-              isBlog={false}
-              title="Discord Gaming Vision Board"
-              description="Allows users to post games they would like to play to a shared vision board. Users can then react to the games they would like to play, and the bot will keep track of the games with the most reactions."
-              ghLink="https://github.com/ndzamboni/discord-bot-gaming-vision-board"
-              demoLink="https://github.com/ndzamboni/discord-bot-gaming-vision-board"
-            />
-          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -42,7 +33,29 @@ function Projects() {
               title="Habit Tracker App"
               description="The Habit Tracker App is a comprehensive tool designed to help users track and manage their habits effectively. It offers a clean, responsive UI with both light and dark modes, and allows users to visualize their habits through various types of charts. The app also supports feature requests from users, ensuring continuous improvement based on user feedback. WORK IN PROGRESS..."
               ghLink="https://github.com/ndzamboni/the-habit-tracker"
-              demoLink="https://the-habit-tracker-m77g.onrender.com"
+              demoLink="https://the-habit-tracker-6pdu.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={financeManager}
+              isBlog={false}
+              title="Python Finance Manager"
+              description="Finance Manager is a desktop application developed with Python and Tkinter. It allows users to manage their personal finances by adding, viewing, editing, and deleting transactions. The app features a clean, responsive design and includes advanced reporting and visualization tools for tracking income, expenses, and savings over time."
+              ghLink="https://github.com/ndzamboni/finance-manager.git"
+              demoLink="https://drive.google.com/file/d/1aURgegbuBTWvx7R1yxVqAZXVxivE18QA/view?usp=drive_link"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={SNAPI}
+              isBlog={false}
+              title="SNAPI (Social Network API)"
+              description="SNAPI (Social Network API) allows users to interact in a social network by creating and managing users, thoughts (similar to posts), reactions (similar to comments), and friendships. Built using Express.js, MongoDB, and Mongoose, this API supports CRUD operations for users, thoughts, reactions, and friendships. It is designed for scalability with a NoSQL database."
+              ghLink="https://github.com/ndzamboni/SNAPI"
+              demoLink="https://drive.google.com/file/d/1f3KI3l2sAH3dqOHKX28DVaOnz6WDy52i/view?usp=sharing"    
             />
           </Col>
 
@@ -65,6 +78,17 @@ function Projects() {
               description="This app allows people to scan a QR code, select their membership type, and complete a survey with questions specific to their membership. The survey responses are saved in JSON files for easy export to any database later."
               ghLink="https://github.com/ndzamboni/qr-survey-app"
               demoLink="https://github.com/ndzamboni/qr-survey-app"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={discord}
+              isBlog={false}
+              title="Discord Gaming Vision Board"
+              description="Allows users to post games they would like to play to a shared vision board. Users can then react to the games they would like to play, and the bot will keep track of the games with the most reactions."
+              ghLink="https://github.com/ndzamboni/discord-bot-gaming-vision-board"
+              demoLink="https://drive.google.com/file/d/1ucsqRf0EAhskhKqPKpusPpz4YcWssIVz/view?usp=sharing"
             />
           </Col>
 
@@ -112,16 +136,6 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={SNAPI}
-              isBlog={false}
-              title="SNAPI (Social Network API)"
-              description="SNAPI (Social Network API) allows users to interact in a social network by creating and managing users, thoughts (similar to posts), reactions (similar to comments), and friendships. Built using Express.js, MongoDB, and Mongoose, this API supports CRUD operations for users, thoughts, reactions, and friendships. It is designed for scalability with a NoSQL database."
-              ghLink="https://github.com/ndzamboni/SNAPI"
-              demoLink="https://drive.google.com/file/d/1f3KI3l2sAH3dqOHKX28DVaOnz6WDy52i/view?usp=sharing"    
-            />
-          </Col>
 
         </Row>
       </Container>
