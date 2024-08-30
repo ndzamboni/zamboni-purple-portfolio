@@ -24,7 +24,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Get to know <strong className="purple">NICK</strong>
             </h1>
-            <Aboutcard />
+            <Aboutcard /> //about card from file
           </Col>
           <Col
             md={5}
@@ -34,17 +34,20 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <Github />
+              
+        <Github /> //github heatmap
+              
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        <Techstack /> //techstack tiles
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+              
+        <Toolstack /> //toolstack tiles
 
       </Container>
     </Container>
