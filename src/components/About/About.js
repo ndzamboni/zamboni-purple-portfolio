@@ -24,7 +24,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Get to know <strong className="purple">NICK</strong>
             </h1>
-            <Aboutcard /> //about card from file
+            <Aboutcard />
           </Col>
           <Col
             md={5}
@@ -35,19 +35,19 @@ function About() {
           </Col>
         </Row>
               
-        <Github /> //github heatmap
+        <Github /> 
               
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack /> //techstack tiles
+        <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
               
-        <Toolstack /> //toolstack tiles
+        <Toolstack /> 
 
       </Container>
     </Container>
