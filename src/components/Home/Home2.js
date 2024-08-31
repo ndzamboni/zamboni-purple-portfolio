@@ -37,7 +37,7 @@ function Home2() {
             ⚡ Experience working on multiple cloud platforms<br/>
             ⚡ Hosting and maintaining websites on virtual machines<br/>
             ⚡ Managing and configuring cloud services<br/>
-            ⚡ Experience with Continuous Integration<br/>
+            ⚡ Experience with continuous integration<br/>
 
 
               <br />
