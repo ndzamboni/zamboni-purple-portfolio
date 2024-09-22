@@ -12,6 +12,7 @@ import habitTracker from "../../Assets/Projects/habitTracker.PNG";
 import svgHero from "../../Assets/Projects/svgHero.PNG";
 import SNAPI from "../../Assets/Projects/SNAPI.PNG";
 import financeManager from "../../Assets/Projects/financeManager.PNG";
+import nexusInsight from "../../Assets/Projects/nexusInsight.PNG";
 
 function Projects() {
   return (
@@ -45,6 +46,17 @@ function Projects() {
               description="Finance Manager is a desktop application developed with Python and Tkinter. It allows users to manage their personal finances by adding, viewing, editing, and deleting transactions. The app features a clean, responsive design and includes advanced reporting and visualization tools for tracking income, expenses, and savings over time."
               ghLink="https://github.com/ndzamboni/finance-manager.git"
               demoLink="https://drive.google.com/file/d/1aURgegbuBTWvx7R1yxVqAZXVxivE18QA/view?usp=drive_link"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nexusInsight}
+              isBlog={false}
+              title="LoL Nexus Insight"
+              description="NexusInsight is a League of Legends tracker app designed to provide players with detailed insights into their summoner profiles, match history, and rankings. Whether you're an avid solo queue grinder or flex player, NexusInsight gives you the stats and insights to improve your gameplay. Using the Riot API, NexusInsight fetches real-time summoner data, match details, and league standings to present a comprehensive view of a player's performance."
+              ghLink="https://github.com/TristinRohr/NexusInsight"
+              demoLink="https://nexusinsight.onrender.com/"
             />
           </Col>
 
